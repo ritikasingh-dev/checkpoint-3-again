@@ -182,14 +182,14 @@ address {
 }
 /* buttons */
 .btn {
-    width: 108px; 
-    height: 30px;
+    width: 24%; 
+    height: 8%;
     border-radius: 12px;
     background-color: rgb(222, 101, 106);
     border: none;
     color: #fff;
     margin-left: 14px;
-    font-size:16px;
+    font-size:18px;
     text-transform: capitalize;
 }
 .btn-top {
@@ -202,13 +202,36 @@ address {
     font-size:16px;
     text-transform: capitalize;
 }
-.btn div {
+.btn-cases {
+    font-size:16px;
+    padding: 12px 26px;
+    border-radius: 12px;
+    background-color: rgb(222, 101, 106);
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: -4px;
+    margin-top: 26px;
+    margin-bottom: 23px;
+}
+.btn-cases-2 {
+    font-size:16px;
+    padding: 12px 26px;
+    background-color: rgb(222, 101, 106);
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: -4px;
+    margin-top: 26px;
+    margin-bottom: 23px;
+}
+/* .btn div {
     font-size: 12px;
     color: #fff;
     font-weight: 600;
     align-content: center;
     margin-top: 8px;
-}
+} */
 /* hero section */
 .hero-section {
     background: url(../media/hero/h1_hero.jpg) center  no-repeat  ;
@@ -483,6 +506,10 @@ h2 {
     padding: 5px;
     margin: 8px;
 }
+.info-box-2 {
+    padding: 5px;
+    margin: 8px;
+    }
 .fiftypercent {
     width: 50%;
 }
