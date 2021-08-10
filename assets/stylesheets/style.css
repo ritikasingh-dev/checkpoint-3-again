@@ -160,6 +160,7 @@ address {
     margin-top: 16px;
     vertical-align: middle;
     margin-bottom: 16px;
+    font-size: 16px;
 }
 .icons-top a {
     color: rgb(50, 82, 124);
@@ -224,6 +225,17 @@ address {
     margin-left: -4px;
     margin-top: 26px;
     margin-bottom: 23px;
+}
+.btn-cases-3 {
+    font-size:16px;
+    padding: 12px 26px;
+    background-color: rgb(222, 101, 106);
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left:4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 /* .btn div {
     font-size: 12px;
@@ -502,7 +514,7 @@ h2 {
     padding: 22px o;
 }
 .info-box {
-    border: 2px solid rgb(210, 204, 241);
+    border: 2px solid rgb(53,88,133);
     padding: 5px;
     margin: 8px;
 }
@@ -550,7 +562,7 @@ h2 {
      margin-right: 12px;
 }
 .block-2 h2 {
-    font-size: 21px;
+    font-size: 18px;
     color: rgb(46,76,117);
 }
 .block-3 h2 {
@@ -559,12 +571,13 @@ h2 {
 
 }
 .block-4 h2 {
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(46,76,117);
 
 }
 .block {
     margin: 26px;
+    text-transform: capitalize;
 }
 .bottom hr {
     color: rgb(222,234,254);
@@ -594,7 +607,7 @@ h2 {
 }
 
 
-/* ABOUT PAGE  */
+/* blog PAGE  */
 
 .hero-sec-about {
     background: url(../media/hero/about_hero.jpg) center  no-repeat  ;
@@ -617,6 +630,9 @@ h2 {
     margin-left: 192px;
 }
 /* article sec */
+.article {
+    width: 100%;
+}
 
 .article h2 {
     color: rgb(19,34,64);
@@ -667,7 +683,7 @@ h2 {
 }
 /* aside */
 .search-sec {
-    width: 100%;
+    width: 94%;
 }
 .search-box {
     background-color: #fff;
@@ -678,7 +694,7 @@ h2 {
     font-size: 16px;
 }
 .magnifying-glass {
-    color: rgb(147,147,147);
+    color: #fff;
     font-size: 16;
     background-color: rgb(234,97,24);
     padding: 6px;
@@ -690,6 +706,13 @@ h2 {
     width: 100%;
     text-transform: capitalize;  
 }
+.category-clouds {
+    background-color:rgb(251,249,255); 
+    padding: 12px 0;
+    margin-left: 20px;
+    width: 86%;
+    text-transform: capitalize;  
+}
 .search {
     margin-bottom: 21px;
     background-color:rgb(251,249,255);
@@ -697,6 +720,19 @@ h2 {
     margin-left: 20px;
     width: 100%;
     text-transform: capitalize;
+}
+.search-blog {
+    margin-bottom: 21px;
+    background-color:rgb(251,249,255);
+    padding: 16px;
+    margin-left: 20px;
+    width: 80%;
+    text-transform: capitalize;
+    /* margin-right: -42px; */
+
+}
+.category {
+    width: 80%;
 }
 
 .category h2 {
@@ -768,11 +804,18 @@ h2 {
 }
 /* category */
 .category {
-    width: 100%;
+    width: 90%;
 }
 .category hr {
     color: gray;
     margin-bottom: 16px;
+}
+.category-clouds {
+    padding: 16px;
+}
+.category-clouds img {
+    width: 98%;
+    margin: 12px 3px;
 }
 /* topics */
 .topics {
@@ -780,18 +823,20 @@ h2 {
     padding: 12px;
 }
 .topic {
-    width: 38%;
+    width: 40%;
     height: 24%;
     border: 2px solid gray;
     background-color: #fff;
     margin-right: 9px;
+    padding: 8px;
     
 }
 .topic h3 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: gray;
     margin-right: 12px;
+    box-sizing: border-box;
 
 }
 /* page box */
@@ -901,3 +946,31 @@ h2 {
     margin-top: -8%;
     margin-left: 2%;
 }
+/* COMPLETED CASES */
+
+/* gal section */
+.case-1 {
+    width: 50%;
+}
+.cases-row img {
+    position: relative;
+    width: 90%;
+    margin:24px 0;
+    margin-right: 20px;
+}
+.about-cases {
+    position: absolute;
+    margin-top: -11%;
+    background-color: #fff;
+    width: 14%;
+    padding-left: 12px;
+}
+.about-cases h2 {
+    color: var(--nav-blue);
+    font-size: 16px;
+}
+.about-cases p {
+    color: var(--nav-blue);
+    font-size: 13px;
+}
+/* blog page */
